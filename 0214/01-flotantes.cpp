@@ -1,14 +1,16 @@
 #include <iostream>
+#include <iomanip>      // std::setprecision
+			//
 using namespace std;
 
 int main() {
-  float  f = 0.123456789;
-  double d = 0.123456789;
+  float  f = 0.1234567890123;
+  double d = 0.1234567890123;
   cout << "Float : " << f << endl;
   cout << "Double: " << d << endl;
-  cout << "Float : " << setpresicion(3) << f << endl;
-  cout << "Double: " << setpresicion(3) << d << endl;
-  cout << "Float : " << setpresicion(15) << f << endl;
-  cout << "Double: " << setpresicion(15) << d << endl;
+  cout << "Float : " << setprecision(3) << f << endl;
+  cout << "Double: " << setprecision(3) << d << endl;
+  cout << "Float : " << setprecision(15) << f << endl;
+  cout << "Double: " << setprecision(15) << d << endl;
   return 0;
 }
