@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>      // std::setprecision
-			//
+
 using namespace std;
 
 int main() {
